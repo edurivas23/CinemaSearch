@@ -7,7 +7,7 @@ import type { Movie, useMoviesProps, Genre } from "../interfaces"
 
 
 
- const   API_KEY = import.meta.env.VITE_API_KEY;
+ const API_KEY = import.meta.env.VITE_API_KEY;
 
 export const useMovies = ({ category }: useMoviesProps) => {
    

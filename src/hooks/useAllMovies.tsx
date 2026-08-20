@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Movie } from "../interfaces";
 const API_KEY = import.meta.env.VITE_API_KEY;
+console.log(API_KEY)
 export const useAllMovies = (movieName: string) => {
 
   const [allMovies, setAllMovies] = useState<Movie[]>([]);
