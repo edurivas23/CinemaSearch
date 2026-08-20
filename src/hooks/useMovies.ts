@@ -2,15 +2,15 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useSearchParams } from "react-router";
-import { API_KEY } from "../constants";
+
 import type { Movie, useMoviesProps, Genre } from "../interfaces"
 
 
 
-
+ const   API_KEY = import.meta.env.VITE_API_KEY;
 
 export const useMovies = ({ category }: useMoviesProps) => {
-
+   
     const [searchParams, setSearchParams] = useSearchParams()
     const [movies, setMovies] = useState<Movie[]>([]);
 
