@@ -1,4 +1,4 @@
-import { useMovies } from "../hooks/useMovies"
+import { useMovies } from "./useMovies"
 import { useEffect, useState } from "react";
 import type { Movie, useMoviesProps } from "../interfaces"
 
