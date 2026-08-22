@@ -32,7 +32,7 @@ export const Hero = () => {
 
         <div className=" absolute bottom-30 mx-8 px-5 py-6  text-wrap max-w-3xl  bg-black/50  rounded-lg shadow-xl shadow-purple-950/50 ">
           <h2 className="text-2xl text-white font-extrabold mb-4  ">
-            {randomMovies[currentMovie]?.id}
+            {randomMovies[currentMovie]?.title}
           </h2>
           <p className=" text-white/90 text-sm mb-4">
             {randomMovies[currentMovie]?.overview}
@@ -40,7 +40,7 @@ export const Hero = () => {
           <div className="text-yellow-300 text-md flex justify-between items-center">
             <span>{randomMovies[currentMovie]?.vote_average.toFixed(1)} ★</span>
             <Link
-              to={`/movie/${randomMovies[currentMovie]?.title}`}
+              to={`/movie/${randomMovies[currentMovie]?.id}`}
               state={{
                 movie: randomMovies[currentMovie],
                 movieGenres: movieGenres,
