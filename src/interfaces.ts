@@ -7,6 +7,7 @@ export interface Movie {
   poster_path: string;
   backdrop_path: string;
   overview: string;
+  vote_count: number;
 }
 
 export interface useMoviesProps {

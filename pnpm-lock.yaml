@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@tailwindcss/vite':
-        specifier: ^4.2.1
+        specifier: ^4.3.3
         version: 4.3.3(vite@7.3.6(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0))
       lucide-react:
         specifier: ^0.575.0
@@ -24,7 +24,7 @@ importers:
         specifier: ^7.13.1
         version: 7.18.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       tailwindcss:
-        specifier: ^4.2.1
+        specifier: ^4.3.3
         version: 4.3.3
     devDependencies:
       '@eslint/js':
@@ -925,6 +925,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
